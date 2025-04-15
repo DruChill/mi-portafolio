@@ -1,0 +1,11 @@
+hero img
+https://sk-illustration-portfolio.netlify.app/assets/hero-vector.svg
+
+about me:
+https://sk-illustration-portfolio.netlify.app/assets/about-me.svg
+
+google icon
+https://sk-illustration-portfolio.netlify.app/assets/google.svg
+
+youtube icon:
+https://sk-illustration-portfolio.netlify.app/assets/youtube.svg
