@@ -104,7 +104,7 @@ header .cv {
 
 
 .hero_section img {
-    width: 50%;
+    width: 100%;
 }
 
 .skills_section {
@@ -173,15 +173,13 @@ header .cv {
 
 .about-me-content {
     display: flex;
-    gap: 2rem;
-    justify-content: space-between;
     padding: 2rem 5rem 0;
 }
 
 .about-me-text {
-    width: 50%;
     font-size: 1.2rem;
     line-height: 1.5;
+    padding: 0 3rem;
 }
 .about-me-text p {
     margin: 1rem 0;
@@ -352,4 +350,90 @@ footer{
 
 .footer-text {
     text-align: end;
+}
+
+@media (max-width: 768px) {
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    .hero_section {
+        flex-direction: column;
+        padding: 1rem 2.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 300;
+    }
+
+    .hero_section img {
+        margin-top: 2rem;
+    }
+
+    .skills {
+        padding: 1rem 3rem;
+    }
+
+    .mi_experience {
+        padding: 0 0rem 2rem 0rem;
+    }
+
+    .about-me-content {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-me-text {
+        /* font-size: 1.2rem;
+        line-height: 1.5; */
+        padding: 0 1rem;
+    }
+    .about-me-text p {
+        margin: 1rem 0;
+        font-weight: 200;
+        opacity: 0.7;
+    }
+    
+    .my-projects {
+        padding: 0 1rem;
+    }
+
+    .content-projects {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #reverse {
+        flex-direction: column;
+    }
+
+    .content-projects img {
+        width: 100%;
+    }
+    .projects-text {
+        width: 100%;
+    }
+    .projects-text span {
+        font-size: 2rem;
+        font-weight:bold;
+        margin-bottom: 1rem;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    
 }
